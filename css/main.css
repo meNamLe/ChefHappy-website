@@ -85,11 +85,26 @@
 
 .nam-btn {
   background-color: #0c0a0a;
+  border-radius: 12313123px;
 }
  .nam-btn:hover{
   background-color: #00a650;
   color: whitesmoke !important;
  }
+
+.nam-image-wrapper {
+  text-align: center;
+}
+
+@media only screen and (min-width:2800) {
+  .nam-media-image { height: 700px !important; }
+}
+@media only screen and (min-width:1400) {
+  .nam-media-image { height: 200px; }
+}
+@media only screen and (min-width:600) {
+  .nam-media-image { height: 100px; }
+}
 
 html {
   font-size: 10px;
@@ -2681,7 +2696,6 @@ html.no-csstransitions .home-content__main {
 
 .s-about .about-bottom-image {
   margin-top: 11.2rem;
-  max-width: 1240px;
 }
 
 .s-about img {
